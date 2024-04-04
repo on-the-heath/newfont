@@ -1,0 +1,29 @@
+/*
+Copyright (c) 2024 Heath Hwayoung Lee, with Reserved Font Name Kakao Small.
+https://github.com/heathlee/webfont_test
+*/
+
+
+@font-face {
+  font-family: 'KakaoSmall Bold';
+  font-weight: 700;
+  font-display: swap;
+  src: local('KakaoSmall Bold'), url(./woff2/KakaoSmall-Bold.woff2) format('woff2'), url(./woff/KakaoSmall-Bold.woff) format('woff');
+  
+}
+
+@font-face {
+  font-family: 'KakaoSmall';
+  font-weight: 400;
+  font-display: swap;
+  src: local('KakaoSmall'), url(./woff/KakaoSmall.woff2) format('woff2'), url(./woff/KakaoSmall.woff) format('woff');
+  
+}
+
+@font-face {
+  font-family: 'KakaoSmall Light';
+  font-weight: 300;
+  font-display: swap;
+  src: local('KakaoSmall-Light'), url(./woff/KakaoSmall-Light.woff2) format('woff2'), url(./woff/KakaoSmall-Light.woff) format('woff');
+  
+}
