@@ -1,0 +1,28 @@
+/*
+Copyright (c) 2024 Heath Hwayoung Lee, with Reserved Font Name Kakao Big.
+https://github.com/heathlee/webfont_test
+*/
+
+@font-face {
+  font-family: 'KakaoBig ExtraBold';
+  font-weight: 800;
+  font-display: swap;
+  src: local('KakaoBig ExtraBold'), url(./woff2/KakaoBig-ExtraBold.woff2) format('woff2'), url(./woff/KakaoBig-ExtraBold.woff) format('woff');
+  
+}
+
+@font-face {
+  font-family: 'KakaoBig Bold';
+  font-weight: 700;
+  font-display: swap;
+  src: local('KakaoBig Bold'), url(./woff2/KakaoBig-Bold.woff2) format('woff2'), url(./woff/KakaoBig-Bold.woff) format('woff');
+  
+}
+
+@font-face {
+  font-family: 'KakaoBig';
+  font-weight: 400;
+  font-display: swap;
+  src: local('KakaoBig'), url(./woff2/KakaoBig.woff2) format('woff2'), url(./woff/KakaoBig.woff) format('woff');
+  
+}

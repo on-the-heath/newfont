@@ -1,12 +1,8 @@
-# 스한스 웹사이트
+# 카카오 폰트 웹사이트
 
-[스포카 한 산스 저장소](https://github.com/spoqa/spoqa-han-sans)의 웹사이트 저장소입니다.
-
-## 왜 저장소가 따로 있어요?
-[META-726](https://i.spoqa.com/browse/META-726), [META-741](https://i.spoqa.com/browse/META-741) 참고
+[카카오 폰트 저장소](https://github.com/heathkakao/newfont)의 웹사이트 저장소입니다.
 
 ## 로컬에서 띄워보는 법
-
 
 ### jekyll 설치
 
