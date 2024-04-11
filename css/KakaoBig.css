@@ -4,7 +4,7 @@ https://github.com/heathlee/webfont_test
 */
 
 @font-face {
-  font-family: 'KakaoBig ExtraBold';
+  font-family: 'KakaoBig';
   font-weight: 800;
   font-display: swap;
   src: local('KakaoBig ExtraBold'), url('https://cdn.jsdelivr.net/gh/heathkakao/newfont/src/web/woff2/KakaoBig-ExtraBold.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/heathkakao/newfont/src/web/woff/KakaoBig-ExtraBold.woff') format('woff');
@@ -12,7 +12,7 @@ https://github.com/heathlee/webfont_test
 }
 
 @font-face {
-  font-family: 'KakaoBig Bold';
+  font-family: 'KakaoBig';
   font-weight: 700;
   font-display: swap;
   src: local('KakaoBig Bold'), url('https://cdn.jsdelivr.net/gh/heathkakao/newfont/src/web/woff2/KakaoBig-Bold.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/heathkakao/newfont/src/web/woff/KakaoBig-Bold.woff') format('woff');
