@@ -7,7 +7,7 @@ on:
   workflow_dispatch:  # 수동 실행 허용
   push:
     branches:
-      - main
+    - main
 jobs:
 
   diffbrowsers:
