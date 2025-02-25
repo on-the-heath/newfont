@@ -11,8 +11,12 @@ jobs:
 
       - name: Install dependencies
         run: |
+          sudo apt-get update
           sudo apt-get install -y fonttools woff2
-          pip install fontbakery gftools ttfautohint
+          wget http://download.savannah.gnu.org/releases/freetype/ttfautohint-1.8.4-ubuntu-x86_64.tar.gz
+          tar -xvzf ttfautohint-1.8.4-ubuntu-x86_64.tar.gz
+          sudo mv ttfautohint /usr/local/bin/
+          pip install fontbakery gftools
 
       - name: Run Font Bakery QA
         run: fontbakery check-googlefonts QA/kakaosmallsans/*.ttf
