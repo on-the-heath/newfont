@@ -1,0 +1,21 @@
+name: Google Fonts Test Workflow
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get install -y fonttools woff2
+          pip install fontbakery gftools ttfautohint
+
+      - name: Run Font Bakery QA
+        run: fontbakery check-googlefonts QA/kakaosmallsans/*.ttf
+
+      - name: Run GF Tools checks
+        run: gftools qa -f QA/kakaosmallsans/*.ttf --json qa-results.json
